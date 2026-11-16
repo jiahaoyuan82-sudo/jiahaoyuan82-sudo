@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="260" viewBox="0 0 900 260">
+  <style>
+    .lbl{font:14px 'Courier New',monospace;fill:#00fff0;letter-spacing:2px}
+    .red{fill:#ff003c}
+    .sweep{transform-origin:150px 130px;animation:sp 4s linear infinite}
+    .blip{animation:bp 4s infinite}
+    .b2{animation-delay:1.3s}.b3{animation-delay:2.6s}
+    .cur{animation:bl 1s infinite steps(1)}
+    .bar{animation:ld 3s ease-in-out infinite}
+    @keyframes sp{to{transform:rotate(360deg)}}
+    @keyframes bp{0%,100%{opacity:0}5%{opacity:1}40%{opacity:0}}
+    @keyframes bl{50%{opacity:0}}
+    @keyframes ld{0%{width:0}70%,100%{width:420px}}
+  </style>
+  <defs>
+    <radialGradient id="g"><stop offset="0" stop-color="#00fff0" stop-opacity=".55"/><stop offset="1" stop-color="#00fff0" stop-opacity="0"/></radialGradient>
+  </defs>
+  <rect width="900" height="260" rx="6" fill="#0d0221"/>
+  <g fill="none" stroke="#00fff0" stroke-opacity=".35">
+    <circle cx="150" cy="130" r="100"/><circle cx="150" cy="130" r="66"/><circle cx="150" cy="130" r="33"/>
+    <line x1="50" y1="130" x2="250" y2="130"/><line x1="150" y1="30" x2="150" y2="230"/>
+  </g>
+  <path class="sweep" d="M150 130 L250 130 A100 100 0 0 0 220.7 59.3 Z" fill="url(#g)"/>
+  <circle class="blip" cx="200" cy="95" r="5" fill="#ff003c"/>
+  <circle class="blip b2" cx="105" cy="170" r="5" fill="#ff003c"/>
+  <circle class="blip b3" cx="120" cy="80" r="4" fill="#ffe600"/>
+  <text class="lbl" x="310" y="58">// SCANNING SECTOR 7 FOR SURVIVORS</text>
+  <text class="lbl" x="310" y="92">RADIATION ........ <tspan class="red">HIGH</tspan></text>
+  <text class="lbl" x="310" y="118">SIGNALS FOUND .... 03</text>
+  <text class="lbl" x="310" y="144">THREAT LEVEL ..... <tspan class="red">CRITICAL</tspan></text>
+  <text class="lbl" x="310" y="182">DECRYPTING DATA</text>
+  <rect x="310" y="192" width="420" height="10" fill="none" stroke="#00fff0" stroke-opacity=".5"/>
+  <rect class="bar" x="310" y="192" width="0" height="10" fill="#ff003c"/>
+  <text class="lbl cur" x="310" y="228">&gt; _</text>
+  <rect x="1" y="1" width="898" height="258" rx="6" fill="none" stroke="#00fff0" stroke-opacity=".4"/>
+</svg>

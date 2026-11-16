@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="24" viewBox="0 0 900 24">
+  <style>
+    .run{animation:mv 2.5s linear infinite}
+    @keyframes mv{from{transform:translateX(-200px)}to{transform:translateX(900px)}}
+  </style>
+  <defs><linearGradient id="n" x1="0" x2="1"><stop offset="0" stop-color="#ff003c" stop-opacity="0"/><stop offset=".5" stop-color="#00fff0"/><stop offset="1" stop-color="#ff003c" stop-opacity="0"/></linearGradient></defs>
+  <line x1="0" y1="12" x2="900" y2="12" stroke="#3b0a45" stroke-width="2"/>
+  <rect class="run" y="10" width="200" height="4" fill="url(#n)"/>
+  <g fill="#ff003c"><rect x="0" y="9" width="6" height="6"/><rect x="894" y="9" width="6" height="6"/></g>
+</svg>

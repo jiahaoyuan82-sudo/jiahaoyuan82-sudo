@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="140" viewBox="0 0 900 140">
+  <style>
+    .t{font:700 54px 'Courier New',monospace;letter-spacing:6px;text-anchor:middle}
+    .r{fill:#ff003c;animation:gr 2.4s infinite steps(1)}
+    .c{fill:#00fff0;animation:gc 2.4s infinite steps(1)}
+    .m{fill:#f2f2ff}
+    .sub{font:16px 'Courier New',monospace;fill:#00fff0;text-anchor:middle;letter-spacing:4px;animation:bl 1.2s infinite}
+    .scan{fill:url(#sl);animation:sc 3s linear infinite}
+    @keyframes gr{0%,100%{transform:translate(0,0)}8%{transform:translate(-5px,2px)}10%{transform:translate(4px,-2px)}12%{transform:translate(0,0)}55%{transform:translate(6px,0)}57%{transform:translate(0,0)}}
+    @keyframes gc{0%,100%{transform:translate(0,0)}8%{transform:translate(5px,-2px)}10%{transform:translate(-4px,2px)}12%{transform:translate(0,0)}55%{transform:translate(-6px,0)}57%{transform:translate(0,0)}}
+    @keyframes bl{0%,60%{opacity:1}61%,100%{opacity:.2}}
+    @keyframes sc{from{transform:translateY(-140px)}to{transform:translateY(140px)}}
+  </style>
+  <defs>
+    <linearGradient id="sl" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#00fff0" stop-opacity="0"/>
+      <stop offset=".5" stop-color="#00fff0" stop-opacity=".18"/>
+      <stop offset="1" stop-color="#00fff0" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="lines" width="4" height="4" patternUnits="userSpaceOnUse"><rect width="4" height="1" fill="#000" opacity=".35"/></pattern>
+  </defs>
+  <rect width="900" height="140" rx="6" fill="#0d0221"/>
+  <text class="t r" x="450" y="78">SYSTEM BREACH</text>
+  <text class="t c" x="450" y="78">SYSTEM BREACH</text>
+  <text class="t m" x="450" y="78">SYSTEM BREACH</text>
+  <text class="sub" x="450" y="115">&gt; UNAUTHORIZED SURVIVOR DETECTED_</text>
+  <rect class="scan" width="900" height="60"/>
+  <rect width="900" height="140" fill="url(#lines)"/>
+  <rect x="1" y="1" width="898" height="138" rx="6" fill="none" stroke="#ff003c" stroke-opacity=".6"/>
+</svg>
