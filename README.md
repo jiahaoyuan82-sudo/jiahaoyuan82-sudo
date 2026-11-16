@@ -8,12 +8,16 @@
 </p>
 
 <p align="center">
+  <img width="100%" src="./assets/glitch.svg" alt="system breach" />
+</p>
+
+<p align="center">
   <img src="https://img.shields.io/badge/STATUS-ALIVE-ff003c?style=for-the-badge&labelColor=0d0221" />
   <img src="https://img.shields.io/badge/SIGNAL-WEAK_BUT_STABLE-00fff0?style=for-the-badge&labelColor=0d0221" />
   <img src="https://komarev.com/ghpvc/?username=jiahaoyuan82-sudo&label=SURVIVORS%20PASSED%20BY&color=ff003c&style=for-the-badge" />
 </p>
 
----
+<p align="center"><img width="100%" src="./assets/divider.svg" /></p>
 
 ```diff
 - [WARNING]  YEAR 2077 · CITY GRID COLLAPSED · NETWORK FRAGMENTED
@@ -36,6 +40,8 @@
 | `#05` | [**SE-SHOP**](https://github.com/jiahaoyuan82-sudo/SE-SHOP) | `HTML` | Trading post |
 | `#06` | [**amayadori-mart**](https://github.com/jiahaoyuan82-sudo/amayadori-mart) | `HTML` | 雨宿り — shelter from the acid rain |
 
+<p align="center"><img width="100%" src="./assets/divider.svg" /></p>
+
 ## ⚙ ARSENAL
 
 <p align="left">
@@ -45,10 +51,14 @@
 ## ▓ SYSTEM DIAGNOSTICS
 
 <p align="center">
+  <img width="100%" src="./assets/radar.svg" alt="radar scan" />
+</p>
+
+<p align="center">
   <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=jiahaoyuan82-sudo&bg_color=0d0221&color=00fff0&line=ff003c&point=ffffff&area=true&area_color=ff003c&hide_border=true&custom_title=SIGNAL%20ACTIVITY%20%2F%2F%20LAST%2030%20CYCLES" />
 </p>
 
----
+<p align="center"><img width="100%" src="./assets/divider.svg" /></p>
 
 ```
  ┌──────────────────────────────────────────────────────────────┐
