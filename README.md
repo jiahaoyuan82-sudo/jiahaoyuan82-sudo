@@ -45,11 +45,6 @@
 ## ▓ SYSTEM DIAGNOSTICS
 
 <p align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=jiahaoyuan82-sudo&show_icons=true&hide_border=true&bg_color=0d0221&title_color=ff003c&icon_color=00fff0&text_color=c8c8ff&custom_title=SURVIVOR%20STATS" />
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=jiahaoyuan82-sudo&layout=compact&hide_border=true&bg_color=0d0221&title_color=ff003c&text_color=c8c8ff&custom_title=SALVAGED%20LANGUAGES" />
-</p>
-
-<p align="center">
   <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=jiahaoyuan82-sudo&bg_color=0d0221&color=00fff0&line=ff003c&point=ffffff&area=true&area_color=ff003c&hide_border=true&custom_title=SIGNAL%20ACTIVITY%20%2F%2F%20LAST%2030%20CYCLES" />
 </p>
 
